@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: blueviolet;
+}
+
+#container {
+  border: 1px solid red;
+  width: 288px;
+  height: 498px;
+  margin: 66px auto 0px auto;
+  padding: 0 24px;
+}
