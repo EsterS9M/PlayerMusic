@@ -7,13 +7,19 @@
 }
 
 body {
-  background-color: blueviolet;
+  background-color: #2A2141;
 }
 
 #container {
   border: 1px solid red;
-  width: 288px;
+  width: 266.48px;
   height: 498px;
-  margin: 66px auto 0px auto;
-  padding: 0 24px;
+  margin: 38px auto 9.6px auto;
+}
+
+#profile img {
+  border: 1px solid red;
+  border-radius: 6%;
+  width: 189.66px;
+  margin: 38px;
 }
