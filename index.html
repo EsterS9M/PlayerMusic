@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Música</title>
-    <link rel="stylesheet" href="./style.css">
-
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
    <img src="./assets/dominic-fike.jpg">
@@ -14,7 +14,19 @@
         <h2>Florida</h2>
         <i>Dominic Fike</i>
      </div>
-
+      <div class="duracao">
+         <div class="barras">
+            <progress value="0.5" max="1"></progress>
+            <div class="ponto"></div>
+         </div>
+         <div class="tempo">
+            <p class="inicio">0:00</p>
+            <p class="fim">3:40</p>
+         </div>
+      </div>
+      <div class="player">
+        <i class="fa-thin fa-play"></i>
+      </div>
 
    <script src="./script.js"></script>
 </body>
