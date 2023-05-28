@@ -30,10 +30,11 @@ img {
 
 .profile {
   width: 300px;
+  text-align: center;
 }
 
-h2{
- margin-bottom: 5px;
+h2 {
+  margin-bottom: 5px;
 }
 
  .duracao {
@@ -86,4 +87,28 @@ progress {
    font-size: 24px;
    justify-content: space-around;
    gap: 190px;
+}
+
+.botao-play, .botao-pause {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.setas {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.botao-pause {
+    display: none;
+}
+
+.Random {
+   font-size: 25px;
+   cursor: pointer;
+}
+
+.repeat {
+   font-size: 25px;
+   cursor: pointer;
 }
