@@ -6,7 +6,8 @@
   box-sizing: border-box;
 }
 
-body,  html {
+body,
+html {
   margin: 0;
   padding: 38px;
   display: flex;
@@ -39,7 +40,7 @@ h2 {
   margin-bottom: 5px;
 }
 
- .duracao {
+.duracao {
   width: 300px;
   margin-top: 25px;
 }
@@ -47,7 +48,7 @@ h2 {
 .barra {
   width: 300px;
   height: 6px;
-  border: 1px solid #eee;
+  background-color: #333;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -84,33 +85,34 @@ progress {
 }
 
 .Player {
-   display: flex;
-   width: 300px;
-   font-size: 24px;
-   justify-content: space-around;
-   gap: 190px;
+  display: flex;
+  width: 300px;
+  font-size: 24px;
+  justify-content: space-around;
+  gap: 190px;
 }
 
-.botao-play, .botao-pause {
-    font-size: 40px;
-    cursor: pointer;
+.botao-play,
+.botao-pause {
+  font-size: 40px;
+  cursor: pointer;
 }
 
 .setas {
-    font-size: 30px;
-    cursor: pointer;
+  font-size: 30px;
+  cursor: pointer;
 }
 
 .botao-pause {
-    display: none;
+  display: none;
 }
 
 .Random {
-   font-size: 25px;
-   cursor: pointer;
+  font-size: 25px;
+  cursor: pointer;
 }
 
 .repeat {
-   font-size: 25px;
-   cursor: pointer;
+  font-size: 25px;
+  cursor: pointer;
 }
